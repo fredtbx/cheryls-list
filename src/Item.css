@@ -1,0 +1,13 @@
+.item {
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  padding: .25rem;
+  border-bottom: 1px solid #4267b2;
+}
+.button-remove {
+  background-color: #008CBA;
+  color: white;
+  height: 1.7rem;
+}

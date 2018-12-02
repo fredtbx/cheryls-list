@@ -1,0 +1,21 @@
+.new-item-container {
+
+}
+.new-item-form {
+  display: flex;
+  height: 2.5rem;
+  padding: .3rem;
+  /* padding-left: .5rem; */
+
+}
+.new-item-input {
+  flex-grow: 1;
+  background-color: lightgray;
+  margin-right: .25rem;
+}
+.button-submit {
+  width: 4.7rem;
+  background-color: #003366;
+  color: white;
+}
+
