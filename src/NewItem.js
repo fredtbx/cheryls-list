@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+//import uniqueId from 'lodash/uniqueId';
 import './NewItem.css';
 
 class NewItem extends Component {
@@ -15,7 +16,11 @@ class NewItem extends Component {
     
     event.preventDefault();
 
-    onSubmit({ value, picked: false });
+    onSubmit({ 
+      id: new Date().getTime(), 
+      value, 
+      picked: false 
+    });
 
     this.setState({ value: ''});
     document.querySelector('#new-item').focus();

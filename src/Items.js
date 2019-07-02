@@ -8,8 +8,7 @@ class Items extends Component {
     const { items, onRemove, onCheck } = this.props;
     return (
       <div>        
-        {items
-          .map(item =>           
+        {items.map(item =>           
             <Item 
               key={item.id}
               onCheck={onCheck}
